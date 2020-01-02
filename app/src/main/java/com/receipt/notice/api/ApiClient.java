@@ -34,7 +34,8 @@ public class ApiClient {
                 .build();
      Retrofit.Builder builder =  new  Retrofit.Builder()
               //.baseUrl("http://callback.thepapayas.com/App/")
-             .baseUrl("http://10.0.0.77/App/")
+            //.baseUrl("http://10.0.0.77/App/")
+             .baseUrl("http:www.javagrape.com/App/")
              .client(okHttpClient)
              .addConverterFactory(JacksonConverterFactory.create());
      mRetrofit = builder.build();
